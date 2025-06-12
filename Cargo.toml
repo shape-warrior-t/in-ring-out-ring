@@ -1,0 +1,16 @@
+[package]
+name = "in-ring-out-ring"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+kira = "0.10.7"
+macroquad = "0.4.14"
+rand = "0.9.1"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+serde_with = "3.12.0"
+
+[lints.clippy]
+semicolon_if_nothing_returned = "warn"
+semicolon_inside_block = "warn"
